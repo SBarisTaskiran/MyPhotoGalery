@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Photo Gallery</title>
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="sayfa">
+      <section class="gallery min-vh-100">
+        <div class="header">
+          <h1>My Photo Gallery</h1>
+        </div>
+        <div class="contaier-lg">
+          <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <div class="col">
+              <img
+                src="https://picsum.photos/1000/800?random=1"
+                class="gallery-item"
+                alt="gallery"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="https://picsum.photos/1000/800?random=2"
+                class="gallery-item"
+                alt="gallery"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="https://picsum.photos/1000/800?random=3"
+                class="gallery-item"
+                alt="gallery"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="https://picsum.photos/1000/800?random=4"
+                class="gallery-item"
+                alt="gallery"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="https://picsum.photos/1000/800?random=5"
+                class="gallery-item"
+                alt="gallery"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="https://picsum.photos/1000/800?random=6"
+                class="gallery-item"
+                alt="gallery"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div
+      class="modal fade"
+      id="gallery-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header"></div>
+          <div class="modal-body">
+            <img
+              src="https://picsum.photos/800/1000?random=1"
+              class="modal-img"
+              alt="modal img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="JavaScript/bootstrap.bundle.min.js"></script>
+    <script src="JavaScript/main.js"></script>
+  </body>
+</html>
