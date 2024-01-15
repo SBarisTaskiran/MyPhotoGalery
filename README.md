@@ -2,4 +2,4 @@
 
 SiliconMadeAcademy FFS104 Barış Taşkıran Week 3 Task
 
-This reposity created for my(Barış Taşkıran) personal task that is 3rd of my course at SiliconMadeAcademy.
+This repository has been created for the third personal task of my course at SiliconMadeAcademy.
